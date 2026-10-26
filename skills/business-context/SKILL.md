@@ -25,7 +25,7 @@ It also means the whole thing works with no connectors at all. Someone who can't
 
 ## Step 1 — Ask for the two things you can't find
 
-One turn, and it's the only typed answer in the whole build.
+One turn, and it's the only typed answer in this skill.
 
 > "Two things and then I'll go do the reading: your website, and your name as it appears on it."
 
@@ -34,6 +34,8 @@ One turn, and it's the only typed answer in the whole build.
 **The website** is the seed for everything. **Their name** is what lets you learn about the person rather than only the company — in a founder-led business those are not the same subject. The site says what it sells; the person's history says what they actually do all day and what they're trying to build.
 
 No website? Take the business name and the city, or a LinkedIn URL. Say it'll be a thinner draft and carry on. Never make this a negotiation.
+
+**A starter file from the map** (a workspace file whose first line is `<!-- aidgentic-chief-of-staff starter-file v1 -->`) may already hold both. Then don't ask: say what you're about to read and let them correct it, and ask only for whatever the file lacks. `/setup` covers the rest under *check for a starter file*. The research in Step 2 runs in full either way; the file is what they told a form, not what their site and their history say.
 
 ---
 
@@ -99,7 +101,7 @@ Then two questions, both clickable, both drawn from what you just read. Not thre
 > - Get the practice off my desk so it runs without me
 > - Something's broken and I need to see it clearly before deciding
 
-Draw the options from what you found: their pricing page, what they post about, what they said in an interview, what the site is plainly trying to sell. **Generic options waste the research.** Four plausible-sounding goals that could belong to any business teach them the options aren't real, and they'll click the first one.
+Draw the options from what you found: their pricing page, what they post about, what they said in an interview, what the site is plainly trying to sell. **Generic options waste the research.** With a starter file, their own answer from the map is the first option, labelled as their words; picking it is the answer, and the question isn't asked again in open form. Four plausible-sounding goals that could belong to any business teach them the options aren't real, and they'll click the first one.
 
 **Don't ask about money directly.** How the money works is derived — from pricing pages, from the profile in `operating-models.md` their answers point at, and from invoices and proposals once mail is connected. Ask what they're trying to move, and the money framing follows from it.
 
@@ -203,7 +205,7 @@ Things that cannot move. Dates, filings, renewals, reports.
 [Standing meetings, weekly patterns, when the week starts and ends, which days are heavy.]
 
 ## Currently Behind
-[From sent mail and their notes, each with a date and a source. Not asked — found.]
+[From sent mail and their notes, each with a date and a source. Not asked — found. A setup snapshot only: the deep read empties it, and from then on commitments live in `Standing Map.md`, re-derived every run.]
 
 ## Open Questions
 Things the research disagreed with itself about, or couldn't settle. Cleared as they're answered.
@@ -249,6 +251,8 @@ Under "not connected," write the consequence, not the fact. Not "email not conne
 
 **Mark what's inferred, and hedge it in the sentence.** A source is not enough on its own — *"X is an AI automation agency (thesite.com)"* still reads as fact, where *"reads like an AI automation agency, from how the site pitches it"* is the same thing delivered honestly. Write a guess as a guess: *reads like*, *as far as I can tell*, *from one interview, so possibly stale*.
 
+**Items from a starter file keep their tag** wherever they're written: *(from your map, not yet checked against your inbox)*. A tagged item is the person's own claim from before anything was connected. Use it, don't promote it; the **deep-read** skill settles each one against the mail.
+
 Only what you read out of a connected account is a fact, and even then report the observation rather than the conclusion — a recurring payment is a recurring payment, not proof of a productized offering. A confident wrong claim about their own business is the fastest way to lose them.
 
 ---
@@ -282,6 +286,7 @@ Then three moves, in order.
 | Now false — a relationship, a date, a word, a role | **Rewrite it**, and move the old version to **Corrections** with the date |
 | Still true, just incomplete — another person, one more fixed point | **Append** |
 | A judgment of yours they're overruling | Rewrite, and record what the evidence had been, so a later run doesn't re-derive the same conclusion and quietly reverse them |
+| An item still tagged from the map | Rewrite it in their words, untagged. Their correction settles it; the deep read doesn't need to |
 | About what the weekly primer covers, not about the business | **Not this file.** `Learning Log.md` → **What they've said**. This file is what the system knows about their business; that one is what it knows about their reading |
 
 Annotating under a wrong entry and leaving the entry in place is how a system agrees with you and then does the same thing tomorrow.

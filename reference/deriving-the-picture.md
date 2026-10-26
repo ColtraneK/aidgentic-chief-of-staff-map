@@ -45,6 +45,8 @@ From every connected source, over the window for your scope:
 - **Other connected systems** — whatever the CRM, books, or project tool says is open.
 - **`Business Context.md`** — fixed points and currently-behind. **`Standing Work.md`** — anything a standing task proposed or did since the last run.
 
+Anything in `Business Context.md` still tagged *(from your map, not yet checked against your inbox)* is the person's own words from before anything was connected. Use it to know what to look for. A line that rests on a tagged item alone cites *your map* as its source, never the inbox.
+
 Any source unavailable: mark it and continue. Never block.
 
 **Capture the link for everything you gather.** Every message and event, keep its permalink alongside the content. Going back for it afterwards costs an extra pass. If a tool doesn't return one, note that it didn't.
@@ -80,7 +82,7 @@ Observed behavior worth planning around: a query for *"next upcoming appointment
 So:
 
 - **Never treat one query's result as the calendar.** An empty result is evidence about the query, not about the day.
-- **Over-fetch, then filter yourself.** Run several broad queries — their own name, their company name, the names in **Who Matters**, plain words like "call", "meeting", "review" — union the results, deduplicate by event id, then filter by date in your own head. Cheaper than being wrong.
+- **Over-fetch, then filter yourself.** Run several broad queries — their own name, their company name, the names in **People** → Active (or **Who Matters**, before the deep read has run), plain words like "call", "meeting", "review" — union the results, deduplicate by event id, then filter by date in your own head. Cheaper than being wrong.
 - **Check the date on every event you get back.** Semantic search returns things from other years that read as relevant. An event dated last August is not on this week's calendar.
 - **If a list-by-time call exists, use it and skip all of this.** Check first.
 
@@ -225,7 +227,7 @@ Then the same for commitments made *to* them: things someone said they'd send an
 
 **Every line in this section is a silence claim, so every line goes through the Step 2b gate and carries its receipt.** This is the section where an unrun sent-mail search does the most damage, because "gone quiet" is precisely the verdict a missed reply produces.
 
-Threads with genuine back-and-forth where the last message is theirs and it's been **5 or more days**, at a late stage. Also anyone **Active** in the People tiers — or in a roster or referral list in their files — with no contact in 30 days.
+Threads with genuine back-and-forth where the last message is theirs and it's been **5 or more days**, at a late stage. Also anyone **Active** in the People tiers — or in a roster or referral list in their files — with no contact in 30 days **or twice their usual gap, whichever is longer**. The People table's *How often* column says what usual is: a client who writes quarterly isn't quiet on day 31, and flagging them every month teaches the person to skip this section.
 
 **Background and Dormant names don't generate quiet lines.** That's what the tiers are for: someone who last came up in March is not "gone quiet," they're just not current, and reporting them as slipping is how this section fills with noise nobody acts on. A Dormant name earns a line only when something new arrives from them — and then they're Active again anyway.
 
@@ -282,6 +284,8 @@ Anything hitting no tiebreaker and carrying no date goes to *Also open*. **Do no
 Compare against the previous dashboard state and the last four session notes.
 
 If something has appeared three or more times without moving, say so on its line: *"Third time running — hasn't moved since July 12."*
+
+**Say that once**, on the review where it first crosses three. After that the line carries only its age (*since July 12*), no commentary. If it's still there two reviews later and nothing in the session notes or **Corrections** mentions it, move it to *Also open* with its age, unless it's dated (Band A) or a chronic condition the profile protects; those stay where they rank. The same warning every Sunday is how a real item becomes wallpaper.
 
 **On a first run**, neither exists. Don't report the check as a finding and don't apologize for it. Instead look for self-documented repetition inside their own notes — "third time I've said this," a commitment restated across weeks, the same request made twice — and report it under **Circling**. That's usually the most quotable thing on a first run, so it must not end up in a footnote. If nothing is circling, drop the section rather than writing that nothing is.
 

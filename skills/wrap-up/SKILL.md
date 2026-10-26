@@ -39,6 +39,8 @@ date: YYYY-MM-DD
 
 Skip **Decisions made** or **Still open** entirely if there's nothing real in them. Don't invent open items to fill a heading.
 
+**A second wrap-up on the same day adds to that day's file**, under its own `# Session` heading below the first. Never overwrite it: the morning's session is in there.
+
 ---
 
 ## Step 2 — The write-back
@@ -47,7 +49,7 @@ This is the part that compounds. Go back through the session and pull out anythi
 
 | What came up | Where it goes |
 |---|---|
-| A new client, funder, partner or counterparty | **Who Matters** |
+| A new client, funder, partner or counterparty | **People** → Active (or **Who Matters**, if the deep read hasn't run yet) |
 | A date that can't move | **Fixed Points** |
 | A correction — "no, that's not how we do it" | **Corrections** |
 | A word they used that you'd been getting wrong | **Vocabulary** |
@@ -68,25 +70,15 @@ Then say in one line what you saved. They should be able to see the system got s
 
 ## Step 3 — Flag the drift
 
-Two checks, only reported when they fire:
+Only reported when they fire, and only the ones wrap-up owns under ground rule 11. Circling belongs to the Sunday review and a missed primer to the next brief, so neither is repeated here. The offers below are one chance each: check **Already Suggested** first, and record what you said and what they answered.
 
-**Stale picture.** If `Standing Map.md` — the dashboard's saved state — is more than 8 days old, say so in one clause. Don't rebuild it now; they're leaving.
+**Stale picture.** If `Standing Map.md` — the dashboard's saved state — is more than 8 days old, the interesting fact is usually that Sunday's review didn't run, not that the map is old. **Check before you say it:** look at what's scheduled. If the Sunday task is missing, it was part of setup, so offering to put it back is a repair rather than a new suggestion: *"Your map is eleven days old because the Sunday review isn't on your schedule any more. Want it back, same time?"* A yes recreates it per `scheduled-runs.md`. If it's there, say it didn't produce a map and that the next brief will show whether it recovers. Don't rebuild it now; they're leaving. If they decline putting it back, record that and don't raise the stale map again.
 
-The Sunday review rewrites this file every week, so on a working setup this check should almost never fire. **When it does fire, the interesting fact is usually that the weekly didn't run**, not that the map is old — say that instead, and say what to check: *"Your map is eleven days old, which means Sunday's review didn't run. Worth a look at the schedule next time you're in."*
+**Old working file.** If `CLAUDE.md` carries a template stamp older than **v2.0**, offer the update once, in one clause — *"your working file is from an older version; say the word and I'll bring it current, keeping everything you've added."* Record the answer, so it's never offered again after a no.
 
-**Circling.** If something has appeared in three or more session notes without moving, name it once, without editorial:
+**A context file that's outgrown itself.** The People tiers keep themselves tidy, so this only fires when something else has bloated — a year of individual Corrections, or session detail recorded in the wrong file. One clause, once ever, and only when it's true. See *Keeping the file worth reading* in the **business-context** skill.
 
-> "The Whitmore renewal has been in the last four session notes."
-
-That's the whole line. No "you might want to." A thing that keeps coming back and never moves usually means the next step is wrong or the decision is actually *no* — and naming the pattern is enough for them to see it themselves.
-
-**A primer that didn't arrive.** If the primer is scheduled and `Learning Log.md`'s newest row is more than about ten days old, say so in one clause — as with the stale map, the interesting fact is usually that the run didn't happen: *"Nothing's been added to your learning log in a fortnight, which means the Friday primer isn't firing. Worth a look at the schedule next time you're in."* Don't research one now; they're leaving.
-
-**Old working file.** If `CLAUDE.md` carries a template stamp older than **v2.0**, offer the update once, in one clause — *"your working file is from an older version; say the word and I'll bring it current, keeping everything you've added."* If they decline, don't raise it again this session.
-
-**A context file that's outgrown itself.** The People tiers keep themselves tidy, so this only fires when something else has bloated — a year of individual Corrections, or session detail recorded in the wrong file. One clause, once, and only when it's true. See *Keeping the file worth reading* in the **business-context** skill.
-
-**Standing work that isn't moving.** If a standing task has run five or more times with nothing changing, name it once and offer to retire it, per the **standing-work** skill. One line, no pitch.
+**Standing work that isn't moving.** If a standing task has run five or more times with nothing changing, and the Sunday review hasn't already offered it, name it once and offer to retire it, per the **standing-work** skill. One line, no pitch.
 
 ---
 

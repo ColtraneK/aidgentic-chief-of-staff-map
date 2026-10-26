@@ -2,6 +2,8 @@
 
 A Claude plugin that reads your email and calendar, works out how your business actually runs, and tells you each morning what needs you.
 
+**This is the map edition.** It starts from the starter file you get at [map.aidgentic.com](https://map.aidgentic.com): upload that file to your Claude Project, then type `/setup`, and setup begins from what you already wrote instead of a blank page. No file? It works exactly the same, it just asks a little more. It branched from [aidgentic-chief-of-staff](https://github.com/ColtraneK/aidgentic-chief-of-staff) 3.0.0; the original is unchanged.
+
 Built for solo operators, founder-led companies, professional practices and nonprofit leaders. No technical background needed. Setup takes about fifteen minutes and most of it is reading and clicking.
 
 ---
@@ -72,12 +74,12 @@ Every connection is granted separately and revocably, and everything it knows is
 
 ## Install
 
-You'll need Claude on a **Pro or Max** plan.
+You'll need Claude on any paid plan: **Pro, Max, Team or Enterprise**.
 
 1. **Customize** in the left sidebar
 2. **Plugins** tab, then **+**
 3. **Add marketplace**
-4. Paste `ColtraneK/aidgentic-chief-of-staff`
+4. Paste `ColtraneK/aidgentic-chief-of-staff-map`
 5. Install **Aidgentic Chief of Staff**, and make sure the toggle is **on** — an installed-but-off plugin looks identical to a working one and does nothing
 
 ### Or install from a downloaded copy
@@ -85,7 +87,7 @@ You'll need Claude on a **Pro or Max** plan.
 If you'd rather not add a marketplace, or someone is walking a room through this together, download the repo instead:
 
 1. On this page, **Code**, then **Download ZIP**
-2. Unzip it — you'll get a folder called `aidgentic-chief-of-staff-main`
+2. Unzip it — you'll get a folder called `aidgentic-chief-of-staff-map-main`
 3. **Customize** → **Plugins** → **+**, and point it at that folder
 4. Toggle it **on**
 
@@ -98,6 +100,8 @@ Then create a **Project** called `Chief of Staff` (Projects, in the left sidebar
 ```
 /setup
 ```
+
+**If you filled in the Chief of Staff Map** at map.aidgentic.com, upload the file it gave you, `my-chief-of-staff-map.md`, to the Project before you type `/setup`. Setup starts from your answers instead of a blank page, asks less, and checks each answer against your inbox before treating it as fact. Without the file, setup works exactly the same way, just from scratch.
 
 **Use a Project rather than a folder.** Both work, but the morning brief runs in the cloud, and a scheduled run can't reach a folder on your computer. In a Project the brief arrives on its own; in a folder it's something you ask for. On the desktop app you can select a folder instead if you'd rather your files sat on your own disk — setup will tell you what you're trading.
 

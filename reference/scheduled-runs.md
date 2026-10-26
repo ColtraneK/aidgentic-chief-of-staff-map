@@ -66,7 +66,7 @@ Write it as a complete instruction to a capable colleague who has never met this
 
 > Run the morning brief for Dana Whitfield.
 >
-> **Workspace:** the Claude Project named `Chief of Staff`. Everything you need is there — read `Business Context.md` first, then `CLAUDE.md`, then the most recent file in `01 Briefs/`. Use the `morning-brief` skill from the `aidgentic-chief-of-staff` plugin and follow it exactly.
+> **Workspace:** the Claude Project named `Chief of Staff`. Everything you need is there — read `Business Context.md` first, then `CLAUDE.md`, then the most recent file in `01 Briefs/`. Use the `morning-brief` skill from the `aidgentic-chief-of-staff-map` plugin and follow it exactly.
 >
 > **State file:** `Business Context.md` in that Project. **Where this prompt and that file disagree, the file is right and this prompt is out of date** — including about the recipient address and about what the business is.
 >
@@ -158,7 +158,7 @@ Auditability is kept the way it's kept for the other two surfaces, not by the ca
 
 Everything in *What the emitted prompt must name* applies unchanged. Four clauses on top:
 
-> **This run is the weekly primer.** Use the `weekly-primer` skill from the `aidgentic-chief-of-staff` plugin and follow it exactly. One topic, researched this week from sources you actually fetch.
+> **This run is the weekly primer.** Use the `weekly-primer` skill from the `aidgentic-chief-of-staff-map` plugin and follow it exactly. One topic, researched this week from sources you actually fetch.
 >
 > **Ledger:** `Learning Log.md` in that Project. Read it before choosing a topic and write to it after — including on a run that sends nothing. Never repeat a topic it already lists.
 >
@@ -322,3 +322,5 @@ If a run concludes that something new should be standing, it writes that conclus
 A run that found nothing still writes: the date, that it ran, what it looked at, and that nothing had moved. Skipping the write on a quiet run makes a working system indistinguishable from a broken one — the file's last entry is three weeks old either way, and the person has no way to tell which they're looking at.
 
 Two lines is enough. *"2026-09-14 — ran, no change. Statements not in yet; last chase was the 9th."*
+
+**Writing every run doesn't mean growing every run.** A quiet run that follows another quiet run updates that row's date range instead of adding a new one, and state files keep only what the next run needs. See *The state file* in the **standing-work** skill. A file every run reads is a cost every run pays.

@@ -86,7 +86,7 @@ Then **say what you did and what it cost**, in the file and in one line of the f
 
 Six things. Each one is a claim about the person, so each one carries its evidence.
 
-**1. Who they actually deal with.** Not everyone who emailed — the recurring counterparties. For each: how often, how recently, who starts the conversations, and what the relationship appears to be. Run the prior-contact test from `inbox-triage.md` before anyone goes in; a four-message cold sequence looks exactly like a recurring correspondent, and one of those in **Who Matters** poisons every brief afterwards.
+**1. Who they actually deal with.** Not everyone who emailed — the recurring counterparties. For each: how often, how recently, who starts the conversations, and what the relationship appears to be. Run the prior-contact test from `inbox-triage.md` before anyone goes in; a four-message cold sequence looks exactly like a recurring correspondent, and one of those in **People** poisons every brief afterwards.
 
 **2. What they get asked for.** Read the *requests* coming at them, in aggregate. What do people want from this person? Approvals, quotes, decisions, expertise, introductions, the actual delivery? This is the single clearest signal of their real role, and it's usually narrower than their title.
 
@@ -125,6 +125,18 @@ The difference matters most when the pattern is wrong. A finding stated as an ob
 
 ---
 
+## Settle anything tagged from the map
+
+If `Business Context.md` carries items tagged *(from your map, not yet checked against your inbox)*, they came from the person's answers at map.aidgentic.com, typed before anything was connected. Settle each one from what this pass read:
+
+- **Confirmed** by mail or calendar: drop the tag and put the evidence where the source goes.
+- **Contradicted**: move it to **Corrections** with the date (*map said X; the mail shows Y*) and write what the mail shows in its place.
+- **Neither**: leave the tag on. No mail is not a contradiction; a name they gave may live in their texts or their head. Never delete a tagged item for lack of evidence.
+
+The brief that follows mentions this only if something was contradicted, and then only the one with the most consequence, as one of its two findings.
+
+---
+
 ## Write it into Business Context.md
 
 Add these sections. Everything else in the file stays as it is; **fold new findings into the existing sections rather than replacing them**, and move anything the deep read contradicts into **Corrections** with the date.
@@ -136,8 +148,8 @@ This is the moment `Business Context.md` stops being a setup artifact and become
 [Their role as the mail describes it, one paragraph, with what it's based on.]
 
 **What people come to you for:** [the two or three real ones, with rough proportions]
-**Rhythms:** [standing meetings, heavy days, monthly and annual spikes]
-**Where the week starts and ends:** [what the traffic shows]
+
+*Rhythms (standing meetings, heavy days, when the week starts and ends, monthly and annual spikes) go in the existing **Rhythm** section, not here. One place per fact.*
 
 ## People
 Everyone who recurs. Verified only. Three tiers, by last contact and whether anything is live.
@@ -178,6 +190,11 @@ Patterns that preceded work that reached a good end. Three or more cases each, o
 ```
 
 Then fold findings into the sections that already exist — **Vocabulary** from how they actually write, **Rhythm** from the calendar, **Fixed Points** from anything annual, **Blind Spots** from what you couldn't see, **What Money Looks Like** from what the mail shows about how it moves.
+
+Two setup sections stop existing here, so each fact has one home:
+
+- **Who Matters folds into People.** Each row goes to Active or Background by the same rule as everyone else, keeping its source (and its map tag, if it still has one). Then delete the **Who Matters** section. Two rosters in one file disagree within a month, and every run reads both.
+- **Currently Behind empties.** It was a setup snapshot. Anything still open is re-derived by every run into `Standing Map.md`; anything done is done. Leave the heading with one line: *Commitments now live in `Standing Map.md`.*
 
 **Anything the deep read contradicts moves to Corrections with the date** rather than being quietly overwritten. The file should show its own history of being wrong; that's what makes it trustworthy.
 

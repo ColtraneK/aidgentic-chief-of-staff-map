@@ -6,6 +6,57 @@ what failed so the fix doesn't get undone by someone who wasn't there.
 
 ---
 
+## 3.1.0 — 26 October 2026
+
+**Setup can start from the Chief of Staff Map.** People who fill in the workbook
+at map.aidgentic.com get a starter file. When a file whose first line is
+`<!-- aidgentic-chief-of-staff starter-file v1 -->` is in the Project, setup
+uses it as the starting draft: Stage 1 confirms the website and name instead of
+asking, and the two Stage 2 questions lead with the person's own answers. It
+still does the research and still connects calendar and email, because a form
+is what someone told a webpage, not what their site and their mail say. Every
+item keeps the tag *(from your map, not yet checked against your inbox)* until
+the deep read confirms it or moves it to Corrections. Blank answers become Open
+Questions and are never asked beyond the usual two. Without the file, nothing
+changes.
+
+**The schedule is one confirmation, not three questions.** Brief time, review
+time and address were three taps in a row about defaults most people accept.
+Setup now proposes all three in one line, with the timezone named so a wrong
+one gets caught, and only a change opens the choices. The primer offer drops
+from five options to three for the same reason.
+
+**One flag, one place, once (ground rule 11).** Circling items were named by
+the Sunday review and again by wrap-up; a missed primer by the brief and again
+by wrap-up. Each recurring flag now has one owner. Everything the plugin says
+"once" is written to Already Suggested when it is said, because several of
+those offers (the template upgrade, the newer dashboard template, the reminder
+count) were remembered only for the session and came back the next day. Wrap-up
+checks the schedule before saying the Sunday review didn't run, rather than
+reporting a worry it could have verified.
+
+**Less noise from the same items.** A circling item is named once, then
+carries only its age, and moves to Also open after two more quiet reviews
+unless it is dated or a protected chronic condition. "Gone quiet" for an
+Active person now waits for twice their usual gap when that is longer than 30
+days, so a quarterly client isn't flagged every month. An item appears in one
+section of the map, not two. A proposal is carried by the review once.
+
+**One home per fact, and state files that stop growing.** The deep read folds
+Who Matters into the People tiers and deletes it, empties Currently Behind
+(Standing Map owns commitments), and writes rhythms only under Rhythm. A
+standing task's quiet runs update one row instead of adding one each weekday,
+the table keeps ten rows, and a retired task keeps one line. Fired reminders
+go after 90 days; the primer keeps eight "produced nothing" lines. Every file
+here is read by some run, so its length is a cost paid every morning.
+
+**Fixes.** Setup described the overnight read twice, once as "up to about two
+years" and once as "the last several months"; the first is gone. Session notes
+are one file per date, so a second wrap-up on the same day could overwrite the
+first; it now adds to it.
+
+---
+
 ## 3.0.0 — 2 September 2026
 
 **The Stage 1 question is asked in prose, not in a picker.** Setup opens by

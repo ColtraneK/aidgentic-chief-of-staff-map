@@ -27,6 +27,8 @@ Type `/setup`. It explains what it is, offers to take a name, then asks for your
 
 About fifteen minutes. If you get interrupted, type `/setup` again — it picks up where it left off.
 
+If you filled in the Chief of Staff Map, upload `my-chief-of-staff-map.md` to the Project first. Setup starts from your answers, skips the questions they already answer, and keeps each one marked *from your map, not yet checked against your inbox* until the overnight read confirms or corrects it.
+
 ---
 
 ## What to connect, and in what order
@@ -149,7 +151,7 @@ By default these *propose* rather than act. You can let one act on a specific na
 | A stranger's sales email showed up as a priority | Tell it. It's supposed to hold those back, and that correction matters. |
 | The brief is generic — wrong words, no history | The scheduled run couldn't reach your workspace. Open a session there and say "good morning"; it'll tell you what the schedule should point at. |
 | The brief lands in Drafts, not your inbox | Your mail connection can write but not send. Setup should have told you this on day one. |
-| "Good morning" answered as something else | Another plugin claims the phrase. Use `/aidgentic-chief-of-staff:morning-brief`. |
+| "Good morning" answered as something else | Another plugin claims the phrase. Use `/aidgentic-chief-of-staff-map:morning-brief`. |
 | `/setup` does nothing | The plugin toggle is off. Customize → Plugins → switch it on. |
 
 ---

@@ -298,6 +298,8 @@ Preferences, in their words, newest first.
 - [YYYY-MM-DD] — [no datable source / search unavailable / every candidate already covered / deep read hadn't run]
 ```
 
+Keep the eight newest lines under **Runs that produced nothing**; older ones have done their job of telling the next brief. **Covered** is never trimmed, because the repeat check needs all of it.
+
 **The Covered row is a claim, not a category.** "AI and documents" is useless to a repeat check; "the document-pass ceiling went from 10 to 500" is checkable. Write the row so a run six months from now can tell whether it would be repeating itself.
 
 ---

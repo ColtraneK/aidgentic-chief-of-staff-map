@@ -70,7 +70,9 @@ In `Standing Work.md` under **Reminders** — not among the three:
 
 **Every run reads this table before proposing anything**, so the same reminder never gets offered twice, and a date already covered never turns up in the brief as though nothing were watching it.
 
-**Ten live reminders is the smell test.** Past ten it has become a to-do list nobody agreed to keep. Say so once and offer to fold the recurring ones into a standing task.
+**Ten live reminders is the smell test.** Past ten it has become a to-do list nobody agreed to keep. Say so once, record it under **Already Suggested**, and offer to fold the recurring ones into a standing task.
+
+**Fired lines older than 90 days are deleted.** The reminder did its job and its task is gone; nothing is running that anyone needs to audit.
 
 ---
 
@@ -141,7 +143,9 @@ Then write the emitted prompt per `scheduled-runs.md` — naming the workspace, 
 - **[name]** — [goal] — ran [start] to [end], ended because [reason]
 ```
 
-**Retired tasks stay in the file.** One line each. It's the only record of what the system used to be doing on their behalf, and deleting it makes the history unauditable.
+**Retired tasks stay in the file.** One line each. It's the only record of what the system used to be doing on their behalf, and deleting it makes the history unauditable. Its run table goes when it retires; the one line keeps the start, the end and why.
+
+**Keep the run table short, without skipping a write.** Every run still writes, but a run that finds nothing changed **updates the previous row when that row also said nothing changed**, rather than adding one: *2026-09-10 to 2026-09-14, 5 runs, nothing had changed; statements not in yet.* Keep the ten newest rows per task and drop older ones. A task that wakes every weekday would otherwise add 250 rows a year to a file every brief reads.
 
 ---
 
@@ -170,6 +174,6 @@ The scheduled prompt points back here. In order:
 
 **Retiring** — takes one sentence from them and needs no confirmation beyond that. Move it to **Retired** with the reason, delete the scheduled task, and say which slot is free. Never argue for keeping it.
 
-**Offer to retire without being asked** when a task has run five or more times with nothing changing, or its end condition has drifted past. One line, observational, no pitch:
+**Offer to retire without being asked** when a task has run five or more times with nothing changing, or its end condition has drifted past. Once per task, recorded in **Already Suggested**, and from whichever surface reaches it first, per ground rule 11. One line, observational, no pitch:
 
 > "The Hollis chase has run nine times since the 2nd and the statements haven't moved. Worth retiring, or changing what it's watching for?"

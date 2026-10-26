@@ -14,7 +14,7 @@ A sender is a **verified counterparty** if any one of these is true:
 
 1. The person has **sent mail to that address or that domain** at any point — a real message, not an auto-reply or an unsubscribe.
 2. They have **shared a calendar event** with that person or domain. **A calendar entry that names only an organization, with no attendee address, verifies the organization — not the sender.** Someone writing in cold from a company that once appeared on the calendar is still a stranger. Note the organizational footprint on their line and leave them unverified.
-3. The sender is **named in `Business Context.md`**.
+3. The sender is **named in `Business Context.md`**. A name still tagged *(from your map, not yet checked against your inbox)* counts only when the sender's full name matches it; the person typed a name, not an address.
 4. The person **replied in a thread this sender started**, at any point in the past.
 5. The sender was **introduced by someone who passes 1–4**, in a real intro thread the person took part in.
 6. The sender is **the counterparty on something recorded in the workspace** — an engagement letter, contract, lease, invoice, proposal or obligation. The *person* need not be named: a landlord writing about a lease that's in their files, an insurer about a policy, a registrar about a domain they actually own, all pass on the matter even when the individual is new.
