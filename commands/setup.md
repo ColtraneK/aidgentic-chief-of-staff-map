@@ -119,7 +119,7 @@ Some people arrive having filled in the Chief of Staff Map at map.aidgentic.com,
 
 | The file has | What changes |
 |---|---|
-| A full name and a website | Stage 1 asks nothing. Say what you're about to read, *"I'll read up on brightbooks.co and on you, Dana Whitfield. Say if either is wrong,"* and start the research and the calendar grant in the same turn. A correction, if one comes, redirects the research. |
+| A full name and a website | Stage 1 asks nothing. Say what you're about to read, *"I'll read up on brightbooks.example and on you, Dana Whitfield. Say if either is wrong,"* and start the research and the calendar grant in the same turn. A correction, if one comes, redirects the research. |
 | Only part of that | Stage 1 asks for the missing part only, typed, as it does today. |
 | Sections that match `Business Context.md` | They are the starting draft. Copy each item into the matching section **with its tag**, *(from your map, not yet checked against your inbox)*, and still do the research exactly as the **business-context** skill says. Where the research and the file disagree, that is an **Open Questions** line, per its Step 3. |
 | What they sell, and what they're trying to move | The two Stage 2 questions become confirmations: their own words are the first option, labelled as theirs, beside the phrasings drawn from research. Picking their words is the answer. A blank on the map means the question is asked as today. |
@@ -238,7 +238,7 @@ Say why the second one exists, in one line, because nobody asks for it and every
 
 **One confirmation, not three questions.** Propose all three defaults in one line, with the address pre-filled from the connected mail account and the timezone named, and let them change any part:
 
-> "I'll send your brief at **7am** on weekdays and your review at **5pm** on Sundays, both to **dana@brightbooks.co**, on New York time. Good, or change something?"
+> "I'll send your brief at **7am** on weekdays and your review at **5pm** on Sundays, both to **dana@brightbooks.example**, on New York time. Good, or change something?"
 >
 > - **That's right**
 > - **Change the times**
