@@ -25,7 +25,7 @@ Everything that runs unattended is one of these. Knowing which one you're creati
 | **One-time reminders** | one date, one thing, fires once and retires itself | ten live | on its own, the moment it fires |
 | **Playbook runs** | a taught job on a cadence they asked for | counts as a standing task | when they retire it |
 
-**The first two surfaces get created at setup, together, and neither is optional.** The daily brief is today's slice; the Sunday review is the whole picture. A system that only ever sends the daily slice lets the medium-term rot quietly — the thing that's been stuck for five weeks never quite qualifies as today's news, so it is never reported at all.
+**The first two surfaces get created at setup, together, and neither is optional.** The one exception is a setup that finished with neither mail nor calendar connected: the Sunday review runs alone, writing to the Project, and the brief is created the day mail is connected. See *If neither mail nor calendar connects* in `/setup`. The daily brief is today's slice; the Sunday review is the whole picture. A system that only ever sends the daily slice lets the medium-term rot quietly — the thing that's been stuck for five weeks never quite qualifies as today's news, so it is never reported at all.
 
 **The third is offered, not assumed.** The brief and the review are the system; the weekly primer is a habit someone opts into. Setup offers it once and takes the answer — a decline is permanent, per ground rule 10, and the skill stays available on request forever.
 
@@ -120,7 +120,7 @@ The second surface, created at setup alongside the brief, and never counted agai
 
 1. Run `deriving-the-picture.md` at whole-picture scope, including Step 8, the repeat check.
 2. Write `Standing Map.md`, overwriting.
-3. Compose and send the weekly review email per the **dashboard** skill's mail skeleton.
+3. Compose and send the weekly review email per the **dashboard** skill's mail skeleton, including its *Worth knowing* section when there's something for it, and save its copy to `01 Briefs/`.
 4. Write a state line, even when the week was quiet.
 5. **Never** attempt the artifact, and never create a task.
 
@@ -128,7 +128,7 @@ The second surface, created at setup alongside the brief, and never counted agai
 
 **The emitted prompt is a separate one**, written to the same standard as the brief's — the workspace by name, `Standing Map.md` by path, the state file wins, the recipient in full, per-source failure behavior, the reply gate, the timezone by name, no clarifying questions. **The reply gate matters more here, not less:** a week's worth of *gone quiet* lines is a week's worth of chances to tell them to chase someone who answered, and this surface is built to report exactly the old, silent-looking threads where a mid-thread reply is easiest to miss. Add one clause the brief's doesn't have:
 
-> **This run rebuilds the whole picture, not today's slice.** Use the `dashboard` skill at whole-picture scope, write `Standing Map.md`, and send the weekly review email described in that skill. Do not attempt to create or update an artifact. Do not create, change or delete any scheduled task.
+> **This run rebuilds the whole picture, not today's slice.** Use the `dashboard` skill at whole-picture scope, write `Standing Map.md`, and send the weekly review email described in that skill, with its *Worth knowing* section: at most one thing looked into outside the inbox and one tip, both as that skill says. Do not attempt to create or update an artifact. Do not create, change or delete any scheduled task.
 
 **Monday's brief says the map was rebuilt**, in the closing line, one clause. Otherwise the person has no way to know the weekly ran, and a surface nobody can tell is working is a surface nobody trusts.
 
@@ -258,7 +258,7 @@ These are the signals. When one fires and nothing is already watching it, there'
 
 ### How to offer it
 
-**One at a time, attached to the thing that prompted it, declinable in a word** — ground rule 10, unchanged. Name the date and the trigger, not the feature:
+**One at a time, attached to the thing that prompted it, declinable in a word** — ground rule 10, unchanged, including its limit of one new recurring thing suggested a week. Name the date and the trigger, not the feature:
 
 > "You told Priya the scope would be with her by the 14th. Want a nudge on the 12th?"
 

@@ -91,6 +91,8 @@ Show them the file. Tell them what to say to run it. Then the thing most people 
 
 > "Change it whenever you want. It's a text file — if it gets something wrong, tell me and I'll edit it, or open it and edit it yourself."
 
+**Don't offer a schedule for it yet.** A playbook runs when they ask until the job is boring, the same every time with nothing left to correct; only then is a cadence worth suggesting, per ground rule 10 and the **standing-work** skill.
+
 **If they want it everywhere, not just this folder** — a job they do across several projects — offer to save it as an installed skill as well, so it travels with them. Keep the workspace copy either way; that's the one they can read and edit.
 
 ---

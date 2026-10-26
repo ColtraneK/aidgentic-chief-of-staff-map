@@ -1,6 +1,6 @@
 ---
 name: business-context
-description: Research the person's business from public sources, draft what you found, and have them correct it — then connect their calendar, email and files on a permissioned basis and enrich the draft from what those show. Writes Business Context.md, the file every other skill reads first. Trigger when the user says "tell you about my business", "set up my context", "update your context", "you don't know enough about my business", "here's how my business works", "that's not how we work", "make these corrections", "you keep getting this wrong", "stop treating X as", "that's not right about", "connect my tools", "connect my email", "hook up my calendar", "add a connection", "what can you see", "why can't you see my email", or when the setup command reaches its context or connect stage. Also use when a brief or dashboard is visibly wrong because the underlying context is thin or stale.
+description: Research the person's business from public sources, draft what you found, and have them correct it — then connect their calendar, email and files on a permissioned basis and enrich the draft from what those show. Writes Business Context.md, the file every other skill reads first. Trigger when the user says "tell you about my business", "set up my context", "update your context", "you don't know enough about my business", "here's how my business works", "that's not how we work", "make these corrections", "you keep getting this wrong", "stop treating X as", "that's not right about", "connect my tools", "connect my email", "hook up my calendar", "add a connection", "what can you see", "why can't you see my email", when someone shares their Chief of Staff Map (the starter file, its PDF, or its text pasted in), or when the setup command reaches its context or connect stage. Also use when a brief or dashboard is visibly wrong because the underlying context is thin or stale.
 ---
 
 # Business Context
@@ -19,7 +19,9 @@ Go and find out what you can from public sources, draft the context file yoursel
 
 It also means the whole thing works with no connectors at all. Someone who can't or won't connect an account still ends up with a real, populated file.
 
-**If they're only here to add a connector** — they said "connect my email," nothing else is wrong — skip to *Connect what it can see*, do that, update **What's Connected**, and stop. Don't drag someone into a context conversation when they asked you to fix one thing.
+**If they're only here to add a connector** — they said "connect my email," nothing else is wrong — skip to *Connect what it can see*, do that, update **What's Connected**, and stop. Don't drag someone into a context conversation when they asked you to fix one thing. The one follow-on: if setup finished without mail and this is their mail, Stage 4 of `/setup` is waiting for it, so finish it now, per *If neither mail nor calendar connects* in `${CLAUDE_PLUGIN_ROOT}/commands/setup.md`.
+
+**If they share their map** (the file, the PDF, or the text pasted in) and setup hasn't run, offer it once, in one line: *"That's your map from the session. Type /setup here and I'll set you up from it, about fifteen minutes."* Don't start drafting from it yourself; `/setup` does that, and it can read the map from this chat. After setup, a map is an update like any other: it fills only sections that are still empty, tagged, and you say in one line what it added.
 
 ---
 
@@ -35,7 +37,7 @@ One turn, and it's the only typed answer in this skill.
 
 No website? Take the business name and the city, or a LinkedIn URL. Say it'll be a thinner draft and carry on. Never make this a negotiation.
 
-**A starter file from the map** (a workspace file whose first line is `<!-- aidgentic-chief-of-staff starter-file v1 -->`) may already hold both. Then don't ask: say what you're about to read and let them correct it, and ask only for whatever the file lacks. `/setup` covers the rest under *check for a starter file*. The research in Step 2 runs in full either way; the file is what they told a form, not what their site and their history say.
+**Their map** (the starter file, its PDF or its pasted text, recognized as `/setup` describes under *check for their map*) may already hold both. Then don't ask: say what you're about to read and let them correct it, and ask only for whatever the map lacks. `/setup` covers the rest. The research in Step 2 runs in full either way; the map is what they told a form, not what their site and their history say.
 
 ---
 
@@ -55,6 +57,14 @@ This is the stage that earns the whole design. Budget about a minute of real wor
 - LinkedIn — headline, current role, history, what they post about
 - Interviews, podcast appearances, conference bios, guest articles
 - Anywhere they describe the business in their own voice rather than in marketing copy
+
+**On their field:**
+
+- What is changing for businesses like theirs, where they are: regulation, deadlines, seasons, what clients now expect
+- What their nearest peers lead with, which is where the site's choices become visible
+- With a map, start from what they wrote they sell, to whom, and the tools they named; *bookkeeping for restaurants in Queens* on QuickBooks is a narrower search than *accounting*
+
+Keep what touches what they're trying to move, two or three lines, under **Their field** in **The Business**. Everything else you read here is background, not file content.
 
 **Date what you find.** Anything you carry into the file from a page carries the page's date, per `${CLAUDE_PLUGIN_ROOT}/reference/grounding-outside-sources.md` — a pricing page from two years ago describes a business that may not exist any more, and an undated claim written in as fact is the kind of thing they correct once and never trust again.
 
@@ -101,7 +111,7 @@ Then two questions, both clickable, both drawn from what you just read. Not thre
 > - Get the practice off my desk so it runs without me
 > - Something's broken and I need to see it clearly before deciding
 
-Draw the options from what you found: their pricing page, what they post about, what they said in an interview, what the site is plainly trying to sell. **Generic options waste the research.** With a starter file, their own answer from the map is the first option, labelled as their words; picking it is the answer, and the question isn't asked again in open form. Four plausible-sounding goals that could belong to any business teach them the options aren't real, and they'll click the first one.
+Draw the options from what you found: their pricing page, what they post about, what they said in an interview, what the site is plainly trying to sell. **Generic options waste the research.** With a map, their own answer from it is the first option, labelled as their words; picking it is the answer, and the question isn't asked again in open form. Four plausible-sounding goals that could belong to any business teach them the options aren't real, and they'll click the first one.
 
 **Don't ask about money directly.** How the money works is derived — from pricing pages, from the profile in `operating-models.md` their answers point at, and from invoices and proposals once mail is connected. Ask what they're trying to move, and the money framing follows from it.
 
@@ -143,7 +153,7 @@ If a grant fails or stalls: **don't debug it in front of them.** Note it, say wh
 
 ### The long tail, later
 
-Once the brief is running, one question is worth asking: *"What else does the business actually run on — a CRM, your books, wherever bookings or cases come in?"* Connect at most **one**. Naming their actual system beats connecting three generic ones. If there's no connector for what they name, say so and record it under **Blind Spots** — a known gap is manageable, an unknown one isn't.
+Once the brief is running, one question is worth asking: *"What else does the business actually run on — a CRM, your books, wherever bookings or cases come in?"* With a map, don't ask: **Where the work lives** already answered it, and the plan names the one worth connecting first. Connect at most **one**. Naming their actual system beats connecting three generic ones. If there's no connector for what they name, say so and record it under **Blind Spots** — a known gap is manageable, an unknown one isn't.
 
 ---
 
@@ -177,8 +187,21 @@ Look for:
 
 **Operating model:** [profile name — derived, not asked]
 
+**Their field:** [two or three dated lines from the research on their industry that touch what they're trying to move, each with its source]
+
 ## What They're Trying To Move
 [Their answer to question two, concretely. This is the standard the brief measures against.]
+
+## What They Want From It
+*Only with a map. Their preferences, in their words and tagged; nothing is created from them.*
+- **Jobs they'd hand over, in their order:** [each]
+- **One more thing they wish it could do:** [their words]
+- **The first question they wanted to ask:** [their words]
+- **How much it should do on its own at first:** [their words]. Read-only stays the default; acting is granted one named action at a time.
+
+### First two weeks
+*Written at the close of setup, ranked by fit with what the research and the mail show. Offered one at a time, in this order; each offer goes under **Already Suggested**.*
+1. [job] — **I do:** [first step] · **You do:** [their part] · [running / offered YYYY-MM-DD, and the answer / not yet]
 
 ## Vocabulary
 The words used in this business. Use these, not generic substitutes.
@@ -240,6 +263,8 @@ Ground rule 10 gives one chance per thing. This is what remembers it was used.
 
 Under "not connected," write the consequence, not the fact. Not "email not connected" but "email not connected — commitments made in threads won't surface."
 
+**Tools from the map** each get a row, *(from your map)* in Source and `not connected` in Status until they are, with the consequence in Notes: *QuickBooks — invoices and who has paid won't surface.* A tool with no connector goes on the **No connector available** line instead, and *mostly my head* under **Blind Spots**. Said is not connected.
+
 **Sent mail gets its own row, and it is not a formality.** The reply gate in `deriving-the-picture.md` runs on it, and a mail grant that reads the inbox but can't search sent messages produces the worst output this system has: telling someone to chase a client they answered last night. Check it at connection time by running one real search, and record what came back. If sent mail can't be searched, say so here and in **Blind Spots** — every claim that someone hasn't replied then softens to what can actually be seen.
 
 **What's Connected is a registry, not a note.** Every scheduled run reads this table to decide what to check, rather than working from a fixed list written into the task months ago. Two things follow, and both are worth saying out loud when someone adds a connector:
@@ -251,7 +276,7 @@ Under "not connected," write the consequence, not the fact. Not "email not conne
 
 **Mark what's inferred, and hedge it in the sentence.** A source is not enough on its own — *"X is an AI automation agency (thesite.com)"* still reads as fact, where *"reads like an AI automation agency, from how the site pitches it"* is the same thing delivered honestly. Write a guess as a guess: *reads like*, *as far as I can tell*, *from one interview, so possibly stale*.
 
-**Items from a starter file keep their tag** wherever they're written: *(from your map, not yet checked against your inbox)*. A tagged item is the person's own claim from before anything was connected. Use it, don't promote it; the **deep-read** skill settles each one against the mail.
+**Items from the map keep their tag** wherever they're written: *(from your map, not yet checked against your inbox)*. A tagged item is the person's own claim from before anything was connected. Use it, don't promote it; the **deep-read** skill settles each one against the mail.
 
 Only what you read out of a connected account is a fact, and even then report the observation rather than the conclusion — a recurring payment is a recurring payment, not proof of a productized offering. A confident wrong claim about their own business is the fastest way to lose them.
 

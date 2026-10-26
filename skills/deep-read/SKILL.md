@@ -135,6 +135,8 @@ If `Business Context.md` carries items tagged *(from your map, not yet checked a
 
 The brief that follows mentions this only if something was contradicted, and then only the one with the most consequence, as one of its two findings.
 
+**Re-rank what's left of First two weeks.** Items not yet offered move by what this pass found, using the same test setup used: what the mail shows is live comes first. Never touch an item that has already been offered.
+
 ---
 
 ## Write it into Business Context.md
@@ -219,7 +221,7 @@ Then say the thing they don't know, once:
 
 That is a real mechanic, not a promise: scheduled runs read the connected list from **What's Connected** rather than a fixed list baked into the task, so a connector added in month three reaches tomorrow's brief on its own. See `${CLAUDE_PLUGIN_ROOT}/reference/scheduled-runs.md`.
 
-**Name at most two gaps**, the two with the most evidence behind them. A list of everything they could theoretically connect is a feature tour, and it reads as one.
+**Name at most two gaps**, the two with the most evidence behind them. If **First two weeks** already carries connecting one, don't name it here too; the plan offers it. A list of everything they could theoretically connect is a feature tour, and it reads as one.
 
 ---
 

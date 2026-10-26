@@ -60,7 +60,7 @@ This half is what makes the second leg real, and skipping it is how a primer tur
 
 From the workspace:
 
-- **`Business Context.md`** — *How You Work*, *What They Care About*, *What They're Trying To Move*, *Vocabulary*, *What Falls Through*, *Blind Spots*. This is where the recurring jobs live.
+- **`Business Context.md`** — *How You Work*, *What They Care About*, *What They're Trying To Move*, *Their field* under *The Business*, *What They Want From It*, *Vocabulary*, *What Falls Through*, *Blind Spots*. This is where the recurring jobs live.
 - **`Learning Log.md`** — everything covered, everything queued, everything they've said about what they want. If it doesn't exist, this is the first primer; create it at the end.
 - **`Standing Map.md`** and the last two files in `03 Session Notes/` — what's actually occupying them right now.
 - **`04 Playbooks/`** — a job they cared enough to teach is a job worth a primer.

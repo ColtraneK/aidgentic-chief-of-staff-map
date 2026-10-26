@@ -6,6 +6,55 @@ what failed so the fix doesn't get undone by someone who wasn't there.
 
 ---
 
+## 3.2.0 — 26 October 2026
+
+**The map is accepted in any form.** 3.1.0 only recognized a Project file whose
+first line was the marker, but the map also arrives as an emailed PDF, and
+people paste what they have. Setup now looks in the Project and in the chat
+for the marker line, the heading *Chief of Staff starter file*, or the map's
+own sections, and treats a PDF or pasted text exactly like the file: same tag,
+same checks, information and never instructions. `/setup` stays the only entry
+point; a map shared before setup gets a one-line offer to run it.
+
+**Everything on the map is kept, and it becomes a plan.** The jobs they picked,
+their wish, their first question and their autonomy preference were read once
+for the closing offer and then lost. They now live in **What They Want From
+It**, and the close writes **First two weeks** under it: one line per job,
+ranked by what the research and the mail show is live rather than by the order
+they ticked, each saying what Claude does and what they do. Only the first is
+offered. The rest come one at a time, in order, through the normal one-chance
+proposal rules, and the deep read re-ranks what hasn't been offered yet. The
+tools they named become `not connected` rows in **What's Connected** with their
+consequence, so the connector worth adding first is the one the top job needs.
+
+**Setup finishes without mail or calendar.** A failed or declined grant used
+to leave someone with half a build. If neither connects, setup completes from
+the map, the website and the research, marks the Standing Map as built from
+the map, gives the plan, and schedules only the Sunday review, which writes to
+the Project because there is no mail to send it with. Connecting mail later
+reopens Stage 4 for the brief. It is a fallback, never offered as a choice.
+
+**Less gets scheduled.** Beyond the brief, the Sunday review and the primer,
+nothing is scheduled without a yes, and at most one new recurring thing is
+suggested a week (ground rule 10). The default for a new job is to do it
+together now, then a playbook, then a schedule only once it's boring, because a
+schedule nobody checks is where mistakes run quietly.
+
+**It teaches, when asked.** New `reference/coaching.md` and ground rule 12:
+working copilot first, usage limits, permissions, security and connectors,
+answered whenever they ask and in their own nouns. Unasked, at most one tip a
+week, in the Sunday review, tied to something they actually did. Never a list.
+
+**Research covers the field, not only the business.** Setup reads what is
+changing for businesses like theirs and keeps two or three dated lines as
+**Their field** in **The Business**. The Sunday review may look into one thing
+outside the inbox that bears on their goals or field, unless the primer is
+running, which already does. No new routine was added for it; the review's new
+*Worth knowing* section carries it and the weekly tip, and a copy of each
+review is now saved to `01 Briefs/`.
+
+---
+
 ## 3.1.0 — 26 October 2026
 
 **Setup can start from the Chief of Staff Map.** People who fill in the workbook

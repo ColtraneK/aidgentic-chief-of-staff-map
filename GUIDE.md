@@ -27,7 +27,7 @@ Type `/setup`. It explains what it is, offers to take a name, then asks for your
 
 About fifteen minutes. If you get interrupted, type `/setup` again — it picks up where it left off.
 
-If you filled in the Chief of Staff Map, upload `my-chief-of-staff-map.md` to the Project first. Setup starts from your answers, skips the questions they already answer, and keeps each one marked *from your map, not yet checked against your inbox* until the overnight read confirms or corrects it.
+If you filled in the Chief of Staff Map, upload the map PDF or file to your Project, or paste it, then type `/setup`. Setup starts from your answers, skips the questions they already answer, and keeps each one marked *from your map, not yet checked against your inbox* until the overnight read confirms or corrects it. It ends with a short plan for your first two weeks, built from the jobs you picked and ranked by what your mail actually shows, and offers only the first step. If your mail and calendar won't connect, setup still finishes from your map and your website, puts only the Sunday review on a schedule, and adds the morning brief once your mail is in.
 
 ---
 
@@ -103,7 +103,7 @@ Everything it sends is titled with your own first name — *Dana's Brief*, *Dana
 
 **End of day — "wrap up."** Ten seconds. It logs what happened and updates what it knows.
 
-**Sunday — the review arrives.** The whole picture rather than today's slice: what moved this week, what didn't, what's been circling, what's coming. It lands late Sunday afternoon on purpose — early enough that you can still do something about it before Monday. It ends with up to three things worth setting up, each declinable in a word.
+**Sunday — the review arrives.** The whole picture rather than today's slice: what moved this week, what didn't, what's been circling, what's coming. It lands late Sunday afternoon on purpose — early enough that you can still do something about it before Monday. It ends with up to three things worth setting up, each declinable in a word. Some weeks it also carries one thing worth knowing: something it looked into about your field, or a tip about something you did that week.
 
 You can also ask for it any time with **"where do things stand"**, which writes `Standing Map.md` and rebuilds the dashboard page on your desktop.
 
@@ -135,6 +135,12 @@ By default these *propose* rather than act. You can let one act on a specific na
 
 ---
 
+## Ask it how
+
+*"Is this safe to connect?"* *"How do I get it to do the invoices?"* *"Why did it stop?"* Ask in your own words and you get a straight answer about your business, not a manual. The habit it teaches: do a job together first, correct it, teach it as a playbook, and put it on a schedule only once it's boring. Unasked, it offers at most one tip a week, in the Sunday review, about something you actually did.
+
+---
+
 ## When it's wrong
 
 | What's happening | What to do |
@@ -148,6 +154,7 @@ By default these *propose* rather than act. You can let one act on a specific na
 | No primer arrived | Either it found nothing recent enough to stand behind — the next brief says so in a line — or the task isn't running. Say "what's running" to tell which. |
 | The primer keeps covering the same ground | Say so. It logs every topic in `Learning Log.md` to avoid exactly that, and "cover [X] next" puts something at the front of the queue. |
 | It feels like it forgot everything | You probably started in a different Project, or haven't been saying "wrap up." |
+| It stopped partway through a long job | Usually your plan's usage limit, not a fault. What it already wrote is kept; carry on in a new chat in the Project once it resets. |
 | A stranger's sales email showed up as a priority | Tell it. It's supposed to hold those back, and that correction matters. |
 | The brief is generic — wrong words, no history | The scheduled run couldn't reach your workspace. Open a session there and say "good morning"; it'll tell you what the schedule should point at. |
 | The brief lands in Drafts, not your inbox | Your mail connection can write but not send. Setup should have told you this on day one. |

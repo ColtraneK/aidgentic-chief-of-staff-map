@@ -57,7 +57,7 @@ This is the part that compounds. Go back through the session and pull out anythi
 | A system you can't see into | **Blind Spots** |
 | A standing meeting or rhythm | **Rhythm** |
 | A job they taught you this session | the Playbooks table in `CLAUDE.md` |
-| A suggestion you made under ground rule 10, and what they said | **Already Suggested** |
+| A suggestion you made under ground rule 10, and what they said | **Already Suggested**, and its line in **First two weeks** if it came from there |
 | A reaction to a primer — "more of that", "not interested in X", "cover Y next" | `Learning Log.md` → **What they've said** |
 
 **Corrections are the highest-value entries in the file.** Every time they tell you something is wrong, that's a permanent upgrade — as long as it gets written down. Date each one and record what was assumed alongside what's actually true.

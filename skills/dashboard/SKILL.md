@@ -73,7 +73,7 @@ Run `deriving-the-picture.md` end to end. Then write `Standing Map.md` to the wo
 
 **The build line is required and it carries the time and the zone**, not just the date. Manual refresh means this stamp is the only thing telling anyone how old the picture is. A dashboard that doesn't say when it was built will be read as current forever.
 
-`[n] sources` counts **roles** that returned something — calendar, email, files, other — and names which.
+`[n] sources` counts **roles** that returned something — calendar, email, files, other — and names which. With nothing connected, as when setup finished without mail or calendar, the build line says *built from your map and public research, nothing connected yet*, and every line cites the map or the page it came from.
 
 ---
 
@@ -98,14 +98,22 @@ The file carries everything. The mail carries the whole picture at reading lengt
 | **Gone quiet** | one line each, oldest first, age leading |
 | **Fixed points ahead** | the next fortnight only; the rest stay in the file |
 | **Also open** | a count and a pointer to the file, not a list |
-| **First contact** | per `inbox-triage.md`, compact, last |
+| **First contact** | per `inbox-triage.md`, compact |
+| **Worth knowing** | at most two lines, below; dropped on a week with neither |
 | **What I couldn't see** | always, in the footer |
 
 **Open with two sentences on the shape of the week**, earned from what's on the page — what moved, and what didn't. Not a grade, per the voice rules. *"Three of the four things on last week's page have closed. The Hollis statements haven't, and they're now nineteen days out."*
 
+### Worth knowing, Sunday only
+
+Two things may go here, each one or two sentences, and most weeks it's one or none:
+
+- **One thing looked into**, outside the inbox, that bears on what they're trying to move or on their field: a deadline change, a rule, a shift in what their clients expect. Fetched and dated per `${CLAUDE_PLUGIN_ROOT}/reference/grounding-outside-sources.md`, with its source named; nothing found that stands up, nothing said. **If they take the weekly primer, leave this to it.**
+- **One tip about using Claude**, tied to something they did this week, per `${CLAUDE_PLUGIN_ROOT}/reference/coaching.md`, and recorded under **Already Suggested**.
+
 ### Then the week's proposals
 
-Close with the accumulated proposals — everything a standing task proposed since the last review, anything the briefs offered that never got an answer, anything sitting in `Learning Log.md` under **Proposed**, and any dated thing coming up inside its lead time with nothing watching it.
+Close with the accumulated proposals — everything a standing task proposed since the last review, anything the briefs offered that never got an answer, anything sitting in `Learning Log.md` under **Proposed**, any dated thing coming up inside its lead time with nothing watching it, and the next item of **First two weeks** when ground rule 10 says it's due.
 
 **The primer's proposals arrive here and nowhere else.** That surface never offers anything itself — a scheduled run asking a question of an empty room burns the one chance — so when a primer concludes something is worth setting up, it writes the line and this review is what puts it in front of them. Clear the lines you carry, so the next review doesn't repeat them.
 
@@ -113,7 +121,7 @@ Close with the accumulated proposals — everything a standing task proposed sin
 
 This is the one place a list of offers is right rather than a violation of ground rule 10. A weekly review is where someone expects to be asked what's worth setting up.
 
-- **Three at most**, ranked by what a wasted week actually costs.
+- **Three at most**, ranked by what a wasted week actually costs, and no more than one of them a new recurring thing, per ground rule 10.
 - **Each one is one line, naming the date and the trigger**, declinable in a word next time they're in a session.
 - **Say how to take one**: *"Reply to this or say it next time you're in — any of them, or none."*
 - **Nothing is created by this run.** A scheduled run never creates a scheduled task. See `scheduled-runs.md`.
@@ -122,13 +130,16 @@ This is the one place a list of offers is right rather than a violation of groun
 
 **The dashboard template cannot be mailed.** `Dashboard Template.html` is a web page — `<style>` blocks, a script, grid layout, ask chips — and mail clients strip every one of those. The review uses the brief's skeleton from the **morning-brief** skill, unchanged in its rules: tables not divs, inline styles on every element, the same palette, the same accent spent once in the masthead, a hairline-and-label opener on every section, the card centred with both `align="center"` and `margin:0 auto`.
 
-Three differences from the brief, and no others:
+Four differences from the brief, and no others:
 
 1. **The wordmark reads `DANA'S REVIEW`** — their name, as in the brief, with *Review* in place of *Brief* — and the line under the date is the week, not the day: *"Week of 11 August."*
 2. **Gone-quiet lines lead with the age**, because the number is the finding: `19 days` in `#8A877E`, in a fixed-width inline-block, then the line.
-3. **The proposals section is the last one before the footer**, its label reading `Worth setting up`, each line ending in the date it hangs on.
+3. **`Worth knowing` comes after First contact**, in the brief's italic *Worth knowing* treatment, at most two lines.
+4. **The proposals section is the last one before the footer**, its label reading `Worth setting up`, each line ending in the date it hangs on.
 
 Everything else — colours, spacing, one heading level, no images, links grey and underlined, escape every piece of gathered text and URL-encode every href — is the brief's rules, applied identically. Two emails from the same system that look like two different products is worse than either one alone.
+
+**Save a copy** to `01 Briefs/[YYYY-MM-DD] Review.md`, as the brief does. With no mail connected, that copy is the review.
 
 **If sending fails:** save it as a draft. If that also fails, the file is already written — say so in the state line and carry on. Never skip the run.
 
