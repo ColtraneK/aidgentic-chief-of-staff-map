@@ -128,7 +128,7 @@ This is the one place a list of offers is right rather than a violation of groun
 
 ### The mail skeleton
 
-**The dashboard template cannot be mailed.** `Dashboard Template.html` is a web page — `<style>` blocks, a script, grid layout, ask chips — and mail clients strip every one of those. The review uses the brief's skeleton from the **morning-brief** skill, unchanged in its rules: tables not divs, inline styles on every element, the same palette, the same accent spent once in the masthead, a hairline-and-label opener on every section, the card centred with both `align="center"` and `margin:0 auto`.
+**The dashboard template cannot be mailed.** `Dashboard Template.html` is a web page — `<style>` blocks, a script, grid layout, ask chips — and mail clients strip every one of those. The review uses the brief's skeleton from the **morning-brief** skill, unchanged in its rules: tables not divs, inline styles on every element, the same palette, the same accent spent once in the masthead, a hairline-and-label opener on every section, the card centered with both `align="center"` and `margin:0 auto`.
 
 Four differences from the brief, and no others:
 
@@ -137,7 +137,7 @@ Four differences from the brief, and no others:
 3. **`Worth knowing` comes after First contact**, in the brief's italic *Worth knowing* treatment, at most two lines.
 4. **The proposals section is the last one before the footer**, its label reading `Worth setting up`, each line ending in the date it hangs on.
 
-Everything else — colours, spacing, one heading level, no images, links grey and underlined, escape every piece of gathered text and URL-encode every href — is the brief's rules, applied identically. Two emails from the same system that look like two different products is worse than either one alone.
+Everything else — colors, spacing, one heading level, no images, links gray and underlined, escape every piece of gathered text and URL-encode every href — is the brief's rules, applied identically. Two emails from the same system that look like two different products is worse than either one alone.
 
 **Save a copy** to `01 Briefs/[YYYY-MM-DD] Review.md`, as the brief does. With no mail connected, that copy is the review.
 
@@ -244,7 +244,7 @@ Six shapes. Building a seventh is a bug.
 <p class="empty">Nothing closed in the last seven days.</p>
 ```
 
-`is-warn` for dated and near, `is-good` for done or running, plain `.meta` for a neutral count. **Colour never carries meaning alone** — there is always a word beside it saying the same thing.
+`is-warn` for dated and near, `is-good` for done or running, plain `.meta` for a neutral count. **Color never carries meaning alone** — there is always a word beside it saying the same thing.
 
 The week strip starts with **today**, not Monday. By Thursday a Mon–Fri grid is half history. Skip weekends unless something is actually on one.
 

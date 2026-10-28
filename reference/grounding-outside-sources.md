@@ -12,7 +12,7 @@ Read it before writing anything that makes a claim about what is currently true 
 
 Not "mostly." Not "unless it's well established." A model's sense of what is current is a snapshot of when it was trained, and it has no way to feel the difference between something it learned last year and something that changed last month. It will state both in the same confident register.
 
-So the division of labour is absolute:
+So the division of labor is absolute:
 
 | What you know is for | What a fetched page is for |
 |---|---|

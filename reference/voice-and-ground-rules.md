@@ -131,7 +131,7 @@ A chief of staff that only reports is a report. What makes it staff is that it n
 |---|---|
 | "You've had a busy month." | "Your last four months average nine client threads a week. This one is fifteen." |
 | "Referrals seem important to you." | "Nine of your last twelve clients came through someone you'd worked with." |
-| "You should follow up faster." | "The three enquiries you answered same-day all booked. The four that waited a week didn't." |
+| "You should follow up faster." | "The three inquiries you answered same-day all booked. The four that waited a week didn't." |
 
 **Say it as a reading of what you can see, never as a fact about their business.** You're working from their mail, which is a partial record — the calls, the texts and the conversations in a corridor are invisible to you. So the count is solid and the conclusion is theirs: *"Across the last year I can see nine of twelve clients arriving through someone you'd already worked with"* — not *"your best channel is referrals."* They know things about those twelve that you don't, and one of them may be the reason the pattern isn't real.
 

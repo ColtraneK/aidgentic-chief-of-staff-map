@@ -68,7 +68,7 @@ This matters more in the brief than anywhere else. The brief is five items long 
 
 - **Unverified senders never appear in *Needs you today*.** Not once, not ever, however urgent the wording.
 - **Mass-sends drop silently.**
-- **A genuine first-time inquiry about their services** gets one line under *First contact*, below everything else, plainly labelled as first contact.
+- **A genuine first-time inquiry about their services** gets one line under *First contact*, below everything else, plainly labeled as first contact.
 - **Cold outreach gets a count, not a list.**
 - Never attach a recommended action to an unverified sender, and never repeat their urgency framing.
 
@@ -94,11 +94,11 @@ Nothing lands here that hasn't cleared the reply gate. Anything they answered ov
 
 **On the calendar** — today's meetings in time order. One line each: who, what it's for, and anything that makes it non-routine.
 
-**Moved** — what closed since yesterday. Someone answered, a thing shipped, a meeting got cancelled, a payment landed. Short. This section is why people keep reading the brief: it's the only place they see progress.
+**Moved** — what closed since yesterday. Someone answered, a thing shipped, a meeting got canceled, a payment landed. Short. This section is why people keep reading the brief: it's the only place they see progress.
 
 **Worth knowing** — at most one line, and only when there is a genuine insight per ground rule 10: something true, drawn from across weeks or months rather than from last night, that today's inbox alone couldn't have told them. It reads as a fact with its evidence, never as a lesson.
 
-> *Three of the four enquiries you answered the same day this quarter booked. The two that waited a week didn't.*
+> *Three of the four inquiries you answered the same day this quarter booked. The two that waited a week didn't.*
 
 Framed as what you can see, not as a fact about the business — the count is solid, what it means is theirs. Ground rule 10 has the wording.
 
@@ -136,7 +136,7 @@ What matters is that the shape is fixed *for them*. A subject that changes shape
 
 Open with **one sentence** naming the shape of the day, earned from the calendar and nothing else. Heavy, normal, or open. If exactly one thing genuinely makes today distinct, name that instead — but never both.
 
-**Only claim the shape of the day if you could actually enumerate the calendar.** If it could only be sampled, say what you can see rather than characterising the whole day: *"Two calls that I can see — my view of your calendar is partial this morning."* Grading a day from a partial view is worse than not grading it.
+**Only claim the shape of the day if you could actually enumerate the calendar.** If it could only be sampled, say what you can see rather than characterizing the whole day: *"Two calls that I can see — my view of your calendar is partial this morning."* Grading a day from a partial view is worse than not grading it.
 
 - heavy — "Meetings from 9 to 3, then it's yours."
 - normal — "Two calls, a clear afternoon."
@@ -161,7 +161,7 @@ Rules:
 
 - **One link per item, and it's the source phrase.** Nothing else in the item is a link.
 - **The phrase still reads as prose** with the link stripped. "In Tuesday's thread with Dana," "on your calendar," "in her email yesterday afternoon." If removing the link would leave a dangling "here" or "this," rewrite it.
-- **Style it quietly** — underlined, in the muted grey, no colour change, no arrow, no icon. It should read as prose that happens to be clickable.
+- **Style it quietly** — underlined, in the muted gray, no color change, no arrow, no icon. It should read as prose that happens to be clickable.
 - **Link the specific thread or event**, not the inbox. A link to the top of their mail is worse than no link, because it costs a tap and delivers nothing.
 - **`https://` only.** Never `javascript:`, never `data:`, never a raw redirector. Take the permalink the tool returned, and never construct one by guessing an ID format.
 - **A link is never invented.** If the tool didn't return a URL, the source phrase is plain text. Silently. Don't apologize for it and don't note the absence.
@@ -205,7 +205,7 @@ The gate runs before sorting so the ranking is honest; this pass runs before sen
 
 **HTML email, to exactly one recipient — their own address, from `CLAUDE.md`.** Verify it before sending. No CC, no BCC, no attachments.
 
-This lands on a phone, before coffee, next to a hundred marketing emails that are all trying harder than it is. It wins by looking like a letter from a person who knows what they're doing — generous space, real typographic hierarchy, no ornament. **Nothing here is a button, a badge, a card or a coloured block.**
+This lands on a phone, before coffee, next to a hundred marketing emails that are all trying harder than it is. It wins by looking like a letter from a person who knows what they're doing — generous space, real typographic hierarchy, no ornament. **Nothing here is a button, a badge, a card or a colored block.**
 
 ### Copy this skeleton
 
@@ -256,7 +256,7 @@ Tables, not divs — Outlook renders with Word and ignores modern layout. Inline
                  color:#1B1A17;letter-spacing:.13em;text-transform:uppercase;padding-top:20px;">On the calendar</div>
    </td></tr>
 
-   <!-- CALENDAR LINE — time column in grey, fixed width so the times align -->
+   <!-- CALENDAR LINE — time column in gray, fixed width so the times align -->
    <tr><td style="padding:14px 36px 0;">
      <div style="font:400 15px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
                  color:#3D3B36;"><span style="color:#8A877E;display:inline-block;min-width:62px;">10:00</span>Ferro walkthrough</div>
@@ -294,21 +294,21 @@ Tables, not divs — Outlook renders with Word and ignores modern layout. Inline
 
 ### The rules that skeleton encodes
 
-**Every section opens with a hairline and a label, without exception.** This is the rule the rendered brief has actually broken in the field — sections ran together as undifferentiated grey text and the whole thing read as one long note. The opener is a single repeated unit: hairline, 20px, label. If a section is worth having, it is worth being visibly a section; if it isn't worth an opener, it belongs inside another one.
+**Every section opens with a hairline and a label, without exception.** This is the rule the rendered brief has actually broken in the field — sections ran together as undifferentiated gray text and the whole thing read as one long note. The opener is a single repeated unit: hairline, 20px, label. If a section is worth having, it is worth being visibly a section; if it isn't worth an opener, it belongs inside another one.
 
-**Section labels are near-black, not grey.** `#1B1A17`, 700, 11px, `.13em` tracking, uppercase. Grey labels on a white card are what "too plain" looks like — they disappear into the body text they're supposed to be separating.
+**Section labels are near-black, not gray.** `#1B1A17`, 700, 11px, `.13em` tracking, uppercase. Gray labels on a white card are what "too plain" looks like — they disappear into the body text they're supposed to be separating.
 
-**Two greys and one near-black, and that's the palette.** `#1B1A17` for titles and section labels, `#3D3B36` for body, `#5F5D57` for the shape-of-the-day line and source links, `#8A877E` for calendar times and the footer. `#E5E3DC` hairlines. `#F2F1ED` page behind a white card.
+**Two grays and one near-black, and that's the palette.** `#1B1A17` for titles and section labels, `#3D3B36` for body, `#5F5D57` for the shape-of-the-day line and source links, `#8A877E` for calendar times and the footer. `#E5E3DC` hairlines. `#F2F1ED` page behind a white card.
 
 **One accent, `#0B6E8A`, and it is spent entirely in the masthead** — the wordmark and the rule beneath it, which together are one gesture. Nowhere else. Not on a section label, not on a link, not on a date.
 
 **The wordmark is their name, and it never changes.** `DANA'S BRIEF` — uppercased by the `text-transform`, so the source carries the name as written. Their name, not the assistant's; the one they chose signs the footer instead. Same four rules as the subject, and the apostrophe is escaped as `&#39;` so no client mangles it.
 
-**Centre the card explicitly.** `align="center"` on the table *and* `margin:0 auto`, because some clients honour one and not the other, and a 600px card pinned left in a wide window is the single most obvious way an email looks unfinished.
+**Center the card explicitly.** `align="center"` on the table *and* `margin:0 auto`, because some clients honor one and not the other, and a 600px card pinned left in a wide window is the single most obvious way an email looks unfinished.
 
 **Set the font on every element.** Mail clients have no cascade you can rely on. It's verbose and it's the only thing that works.
 
-**Links are grey with an underline, never blue.** Set `color` explicitly on the anchor or clients force their own. A brief full of blue links reads as a newsletter, which is the one thing it must not look like.
+**Links are gray with an underline, never blue.** Set `color` explicitly on the anchor or clients force their own. A brief full of blue links reads as a newsletter, which is the one thing it must not look like.
 
 **Space is the design.** 36px side padding, 18px between items, 32px before each section opener. When it looks wrong, the answer is almost always more space rather than another rule or a heavier weight.
 

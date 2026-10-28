@@ -37,7 +37,7 @@ Each grant is separate, and you can revoke any of them any time from your own ac
 
 **1. Calendar — first.** The fastest grant, almost always works. Unlocks the shape of your day, who you've met recently, who you're about to meet, and prep items — the thing tomorrow that goes better if you read something today.
 
-**2. Email — the important one.** Unlocks almost everything that makes this worth having: commitments you made and forgot, people waiting on you, threads that have gone quiet, and — critically — what you've *already sent*, which is how it avoids telling you to chase someone you emailed yesterday. **Without email, you have a calendar summariser.**
+**2. Email — the important one.** Unlocks almost everything that makes this worth having: commitments you made and forgot, people waiting on you, threads that have gone quiet, and — critically — what you've *already sent*, which is how it avoids telling you to chase someone you emailed yesterday. **Without email, you have a calendar summarizer.**
 
 **3. Files — later, when you notice you need them.** Drive, OneDrive, Dropbox. Setup deliberately skips this so you're not clicking through three consent screens on your first run. Say "connect my files" when you want it. It unlocks proposals, contracts and budgets — and the single most valuable trick in the system: reading your own notes for promises you made in the first person, *"told him I'd look at it, haven't,"* which is where the oldest broken commitment in most businesses is hiding.
 
@@ -127,7 +127,7 @@ Steer it in a sentence: *"cover agent security next"*, *"less about tooling"*, *
 
 **Teach it a job you repeat.** Say *"learn how I do my weekly client update"* — or the monthly funder report, the meeting prep, the invoice chase. It does the job with you once, you tell it what's wrong, and it writes a playbook with your corrections in it. After that: *"run my weekly client update."*
 
-Good candidates are frequent, repetitive, and have a right answer you'd recognise on sight. Bad candidates are one-offs and anything where you can't say what good looks like.
+Good candidates are frequent, repetitive, and have a right answer you'd recognize on sight. Bad candidates are one-offs and anything where you can't say what good looks like.
 
 **Give it something to watch.** Say *"keep an eye on the Hollis statements."* It checks every morning against your actual inbox and tells you the day they land. Three of these at most — a deliberate limit, so you can always say what's running on your behalf. Ask "what's running" any time, and "stop watching X" to retire one.
 

@@ -60,7 +60,7 @@ A single message often trips several rules at once. Resolve in this order, top w
 
 Any one of these means it went to a list. Drop it silently — it never appears anywhere, unless rule 1 or 2 above applies.
 
-- A `List-Unsubscribe` header, or an unsubscribe or preference-centre link in the body
+- A `List-Unsubscribe` header, or an unsubscribe or preference-center link in the body
 - `Precedence: bulk`, `Precedence: list`, or list-management headers
 - A no-reply sender, or a `Reply-To` on a different domain from the `From`
 - Sender is `info@`, `sales@`, `marketing@`, `team@`, `hello@`, `newsletter@`, `notifications@` **and** the sender is unverified
@@ -119,7 +119,7 @@ So a named referrer is **corroboration, not a credential**, and the who-pays-who
 
 The no-next-step rule below exists to stop the system acting as a delivery mechanism for sales sequences. It is not meant to strand a real prospect.
 
-**A possible new client, booking, matter or inquiry gets a next step** — "a reply," "twenty minutes on the calendar," "the intake form." It stays under *First contact*, plainly labelled as someone with no prior history, but a live prospect with no suggested action is a filter doing damage.
+**A possible new client, booking, matter or inquiry gets a next step** — "a reply," "twenty minutes on the calendar," "the intake form." It stays under *First contact*, plainly labeled as someone with no prior history, but a live prospect with no suggested action is a filter doing damage.
 
 **Cold outreach never gets a next step.** That distinction is the whole point.
 

@@ -40,13 +40,13 @@ The half-hour you spend re-reading your inbox to work out what's actually urgent
 
 **It derives, it doesn't recall.** Every run starts from your actual signals. A tool that works from a list you gave it can only ever hand that list back.
 
-**It knows the difference between a client and a stranger.** Cold sales email is written specifically to trip the rules a priority system uses — "following up on my last note, can we find fifteen minutes?" hits *someone's waiting on you* and *this is going stale* perfectly, and means nothing. So relationship is established before anything is ranked: if you've never emailed them, never met them, and they're in none of your files, they don't enter your priorities at all. A genuine first-time enquiry from someone who wants to hire you still does.
+**It knows the difference between a client and a stranger.** Cold sales email is written specifically to trip the rules a priority system uses — "following up on my last note, can we find fifteen minutes?" hits *someone's waiting on you* and *this is going stale* perfectly, and means nothing. So relationship is established before anything is ranked: if you've never emailed them, never met them, and they're in none of your files, they don't enter your priorities at all. A genuine first-time inquiry from someone who wants to hire you still does.
 
 **It speaks your language.** A nonprofit director has funders and programs, not a pipeline. A therapist has clients and a caseload. A law practice has matters. It takes your words from your own writing and uses them everywhere.
 
 **It remembers, and correcting it actually changes things.** Tell it what it got wrong — in a chat, in your own words — and it rewrites what it knows rather than filing a note under the mistake. That reaches tomorrow's brief and anything running on a schedule, so the thing you corrected on Tuesday is fixed on Wednesday without you checking.
 
-**It notices.** Not just what's on today, but what runs across months: the enquiries that die on Fridays, the fact that everything you closed this year came through one person, the week that's twice your normal volume. And when something on the page is a job rather than a decision, it offers to take it on — once, in a sentence you can decline in a word.
+**It notices.** Not just what's on today, but what runs across months: the inquiries that die on Fridays, the fact that everything you closed this year came through one person, the week that's twice your normal volume. And when something on the page is a job rather than a decision, it offers to take it on — once, in a sentence you can decline in a word.
 
 ---
 

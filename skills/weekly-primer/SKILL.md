@@ -81,7 +81,7 @@ Three, written as **questions this person would want answered**, each naming som
 > - She forwards client financials into chat to summarize. What's the current state of the advice on that?
 > - Grant reporting season starts in six weeks and it's the thing that falls through. What's changed in how that's being done?
 
-**Write all three before searching any of them.** Committing to a favourite first is how you end up searching for evidence that it was right, which is the exact inversion this whole surface exists to prevent.
+**Write all three before searching any of them.** Committing to a favorite first is how you end up searching for evidence that it was right, which is the exact inversion this whole surface exists to prevent.
 
 ---
 
@@ -111,7 +111,7 @@ Budget: this is a weekly surface with nobody waiting, so it can take the time. B
 
 ## Step 5 — Write it, in units
 
-400 to 600 words, and **never delivered as a slab of prose.** The brief earns its authority partly by looking like a letter from someone who knows what they're doing, and a grey wall breaks that on the one surface that most needs to look trustworthy. The piece is composed from the units below, and the writing is done to fit them.
+400 to 600 words, and **never delivered as a slab of prose.** The brief earns its authority partly by looking like a letter from someone who knows what they're doing, and a gray wall breaks that on the one surface that most needs to look trustworthy. The piece is composed from the units below, and the writing is done to fit them.
 
 **Voice is the voice**, unchanged: never grade, never pad, never narrate the process, never define it against what they expected. Use their nouns from **Vocabulary**.
 
@@ -249,12 +249,12 @@ Section labels, in order: **What changed** · **Where it touches your work** · 
 - **One heading level.** The section openers are the only hierarchy there is.
 - **The accent is spent in the masthead and nowhere else.** Not on a figure, not on a label, not on a link.
 - **The figure is type, not a tile.** No fill, no border, no rounded box. The dashboard has stat tiles because it's a web page; this is a letter.
-- **The `Try this` tint is the one exception** to no-blocks, and it earns it because a prompt set as body prose is unusable. It is a tint, not a colour.
-- **Links are grey and underlined.** They appear in *What I read*, and at most three times in the body on a claim's source phrase. Nowhere else. A page of blue links reads as a newsletter, which is the one thing this must not be.
+- **The `Try this` tint is the one exception** to no-blocks, and it earns it because a prompt set as body prose is unusable. It is a tint, not a color.
+- **Links are gray and underlined.** They appear in *What I read*, and at most three times in the body on a claim's source phrase. Nowhere else. A page of blue links reads as a newsletter, which is the one thing this must not be.
 - **No images, no logo, no buttons, no badges, no tracking pixel, no web font.**
 - **Space does the separating** — 36px sides, 18px between items, 32px before each section opener. Hairlines separate sections, never items.
 - **Escape every piece of fetched text and URL-encode every href.** Titles and quotes go in as escaped plain text; the URL lives in `href` and nowhere else.
-- **Line breaks inside the `Try this` block are `<br>`.** Mail clients don't honour `<pre>`, and indentation needs `&nbsp;`.
+- **Line breaks inside the `Try this` block are `<br>`.** Mail clients don't honor `<pre>`, and indentation needs `&nbsp;`.
 
 **Never print the HTML into the session.** Send it, save it, say one line.
 

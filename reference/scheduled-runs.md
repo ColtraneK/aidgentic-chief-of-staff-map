@@ -248,7 +248,7 @@ These are the signals. When one fires and nothing is already watching it, there'
 
 ### Which of the four it becomes
 
-**A date and nothing else → a one-time reminder.** No decision required, no re-derivation, no cap. This is the default, and the one most often skipped in favour of something heavier. If the whole job is *say this to them on the 12th*, that's a reminder — make it and move on.
+**A date and nothing else → a one-time reminder.** No decision required, no re-derivation, no cap. This is the default, and the one most often skipped in favor of something heavier. If the whole job is *say this to them on the 12th*, that's a reminder — make it and move on.
 
 **A date plus something to watch → a standing task**, if and only if they can name an end. "Every morning until the statements arrive." Re-deriving is what earns the slot; if nothing needs re-deriving, it was a reminder.
 

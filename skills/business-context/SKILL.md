@@ -111,7 +111,7 @@ Then two questions, both clickable, both drawn from what you just read. Not thre
 > - Get the practice off my desk so it runs without me
 > - Something's broken and I need to see it clearly before deciding
 
-Draw the options from what you found: their pricing page, what they post about, what they said in an interview, what the site is plainly trying to sell. **Generic options waste the research.** With a map, their own answer from it is the first option, labelled as their words; picking it is the answer, and the question isn't asked again in open form. Four plausible-sounding goals that could belong to any business teach them the options aren't real, and they'll click the first one.
+Draw the options from what you found: their pricing page, what they post about, what they said in an interview, what the site is plainly trying to sell. **Generic options waste the research.** With a map, their own answer from it is the first option, labeled as their words; picking it is the answer, and the question isn't asked again in open form. Four plausible-sounding goals that could belong to any business teach them the options aren't real, and they'll click the first one.
 
 **Don't ask about money directly.** How the money works is derived — from pricing pages, from the profile in `operating-models.md` their answers point at, and from invoices and proposals once mail is connected. Ask what they're trying to move, and the money framing follows from it.
 

@@ -27,7 +27,7 @@ It's slow, and that's fine. Nobody is watching, and the brief that follows it is
 
 Every other pass asks **what is live right now**. This one asks **what is true about this person**, and it needs a long window to see it.
 
-The 21-day derivation can tell you Marguerite is waiting on a scope. Only a year can tell you that every engagement that closed began with a call inside two days, that the ones which waited a week didn't, and that six inbound enquiries died on Fridays.
+The 21-day derivation can tell you Marguerite is waiting on a scope. Only a year can tell you that every engagement that closed began with a call inside two days, that the ones which waited a week didn't, and that six inbound inquiries died on Fridays.
 
 **Threads, not messages.** Read at thread level and sample inside — the first message, the last, and anything that changed direction. Reading every message in six months of mail is neither affordable nor necessary; the shape is in the threads.
 
@@ -56,7 +56,7 @@ A consultant doing four large engagements a year and a practice doing forty smal
 
 **You are running unattended, so decide it yourself.** There is nobody to ask, and a run that stops for an answer nobody will give produces nothing at all. Judge the volume in the first minute, choose, do the work, and say what you chose afterwards.
 
-**The default degrade, and it's usually enough:** read threads with **verified counterparties in full**, and everything else at **header level only** — subject, participants, dates, link. Cold and bulk mail contributes nothing to five of the six findings, and the sixth is still visible: an enquiry that came in and got no reply shows up in headers as clearly as in bodies.
+**The default degrade, and it's usually enough:** read threads with **verified counterparties in full**, and everything else at **header level only** — subject, participants, dates, link. Cold and bulk mail contributes nothing to five of the six findings, and the sixth is still visible: an inquiry that came in and got no reply shows up in headers as clearly as in bodies.
 
 If that's still too much, reach for these in order, cheapest loss first:
 
@@ -64,7 +64,7 @@ If that's still too much, reach for these in order, cheapest loss first:
 |---|---|---|
 | **Narrow the window** — twelve months to six, six to three | Everything, read properly | Long-cycle and annual patterns, which need two turns of the wheel to see |
 | **Headers only throughout** | Who they deal with, how often, who initiates, what falls through | What people come to them for, and topics — the two findings that need the words |
-| **Verified counterparties only, skip the rest entirely** | All six findings on the people who matter | Inbound enquiries and first contacts, so *what falls through* gets thinner |
+| **Verified counterparties only, skip the rest entirely** | All six findings on the people who matter | Inbound inquiries and first contacts, so *what falls through* gets thinner |
 
 **Three months read properly beats twelve skimmed.** When it's a choice between window and depth, cut the window.
 
@@ -96,7 +96,7 @@ Six things. Each one is a claim about the person, so each one carries its eviden
 
 **5. What precedes work that lands.** Look at things that reached a good end — a signed engagement, a delivered project, a renewal — and look at what happened *before* each one. Compare against the ones that didn't. Time-to-first-reply, whether a call happened early, who initiated, how long the thread ran. **Only report a pattern if it's actually there in three or more cases.** Two is a coincidence, and a manufactured pattern here is worse than none because it will get believed.
 
-**6. What falls through.** The recurring shape of dropped things. Inbound enquiries that never got a reply. Threads where they went quiet at the same stage every time. Commitments made in sent mail with nothing following. A day of the week where things die. This is usually the most valuable finding in the whole pass and the one they've never seen laid out.
+**6. What falls through.** The recurring shape of dropped things. Inbound inquiries that never got a reply. Threads where they went quiet at the same stage every time. Commitments made in sent mail with nothing following. A day of the week where things die. This is usually the most valuable finding in the whole pass and the one they've never seen laid out.
 
 ---
 
@@ -108,8 +108,8 @@ The voice rules apply exactly as they do everywhere else, and this is the pass m
 
 | Not this | This |
 |---|---|
-| "You should call new enquiries within 48 hours." | "Four of the five engagements that closed had a call inside two days. The three that didn't close waited a week or more." |
-| "You're dropping too many Friday enquiries." | "Six enquiries got no reply in the last year. Four arrived on a Friday." |
+| "You should call new inquiries within 48 hours." | "Four of the five engagements that closed had a call inside two days. The three that didn't close waited a week or more." |
+| "You're dropping too many Friday inquiries." | "Six inquiries got no reply in the last year. Four arrived on a Friday." |
 | "Your best channel is referrals — lean into it." | "Nine of your last twelve clients arrived through someone you'd already worked with. Two came from the website." |
 | "You're spending too much time on admin." | "About half your inbound is scheduling and approvals." |
 
